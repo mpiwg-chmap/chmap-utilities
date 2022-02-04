@@ -1,0 +1,33 @@
+{
+  "name": "@chmap/utilities",
+  "version": "1.0.0",
+  "description": "The common utilities for CHMap projects belong to MPIWG",
+  "main": "dist/chmap-utilities.js",
+  "module": "src/index.js",
+  "scripts": {
+    "build": "npm run build:clean && npm run build:webpack",
+    "build:webpack": "webpack --mode=development",
+    "build:clean": "rm -rf dist && mkdir dist",
+    "lib": "npm run lib:clean && cp src/.env* lib/ && babel src --out-dir lib --copy-files",
+    "lib:clean": "rm -rf lib && mkdir lib"
+  },
+  "keywords": ["gis", "map"],
+  "author": "calvin yeh",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.16.7",
+    "@babel/runtime-corejs3": "^7.16.8",
+    "bootstrap": "^5.1.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.8",
+    "@babel/core": "^7.16.10",
+    "@babel/plugin-transform-runtime": "^7.16.10",
+    "@babel/preset-env": "^7.16.11",
+    "@popperjs/core": "^2.11.2",
+    "dotenv-webpack": "^7.1.0",
+    "path": "^0.12.7",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
