@@ -4,6 +4,7 @@ import OpenStreetMapService from "./openstreetmap-service";
 import IIIFViewer from "./iiif-viewer";
 import DateUtils from "./date-utils";
 import BasicDataProcessor from "./data-processor";
+import FloatPanelManagement from "./float-panel-management";
 import * as BootstrapWrap from "./bootstrp-wrap";
 import * as Constants from "./constants";
 import * as Commons from "./commons";
@@ -17,5 +18,6 @@ export {
     IIIFViewer,
     DateUtils,
     BasicDataProcessor,
-    BootstrapWrap
+    BootstrapWrap,
+    FloatPanelManagement,
 };
