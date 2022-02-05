@@ -9,22 +9,20 @@ const config = {
         index: './src/index.js',
     },
 
-    experiments: {
-        outputModule: true,
-    },
+    // experiments: {
+    //     outputModule: true,
+    // },
 
     output: {
         path: path.resolve(__dirname, "./dist"),
         // filename: `chmap-utilities-${version}.js`,
         filename: `chmap-utilities.js`,
-        environment: { module: true },
-        // library: {
-        //     name: "chmapUtilities",
-        //     type: 'umd',
-        // }
+        // environment: { module: true },
+        library: {
+            name: "chmapUtilities",
+            type: 'umd',
+        }
     },
-
-    externalsType: "module",
 
     externals: {
         bootstrap: true
