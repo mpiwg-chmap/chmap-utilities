@@ -1,7 +1,7 @@
 {
   "name": "@chmap/utilities",
-  "version": "1.0.0",
-  "description": "The common utilities for CHMap projects belong to MPIWG",
+  "version": "1.0.1",
+  "description": "The common utilities for CHMap projects belonging to MPIWG",
   "main": "dist/chmap-utilities.js",
   "module": "src/index.js",
   "scripts": {
