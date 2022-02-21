@@ -1,6 +1,6 @@
 {
   "name": "@chmap/utilities",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The common utilities for CHMap projects belonging to MPIWG",
   "main": "dist/chmap-utilities.js",
   "module": "src/index.js",
@@ -13,7 +13,7 @@
   },
   "keywords": ["gis", "map"],
   "author": "calvin yeh",
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "dependencies": {
     "@babel/runtime": "^7.16.7",
     "@babel/runtime-corejs3": "^7.16.8",
